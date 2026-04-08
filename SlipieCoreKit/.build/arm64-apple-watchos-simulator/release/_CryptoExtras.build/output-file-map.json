@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/_CryptoExtras.build/_CryptoExtras.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/_CryptoExtras.build/_CryptoExtras.o",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/_CryptoExtras.build/master.swiftdeps"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/swift-crypto/Sources/_CryptoExtras/Exports.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/_CryptoExtras.build/Exports.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/_CryptoExtras.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/_CryptoExtras.build/Exports.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/_CryptoExtras.build/Exports.dia"
+  }
+}

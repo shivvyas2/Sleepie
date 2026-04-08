@@ -1,0 +1,175 @@
+{
+  "": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Realtime.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Realtime.o",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/master.swiftdeps"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/CallbackManager.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/CallbackManager.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/CallbackManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/CallbackManager.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/CallbackManager.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Deprecated/Defaults.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Defaults.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Defaults~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Defaults.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Defaults.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Deprecated/Delegated.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Delegated.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Delegated~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Delegated.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Delegated.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Deprecated/Deprecated.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Deprecated.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Deprecated.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Deprecated.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Deprecated/HeartbeatTimer.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/HeartbeatTimer.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/HeartbeatTimer~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/HeartbeatTimer.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/HeartbeatTimer.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Deprecated/PhoenixTransport.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PhoenixTransport.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PhoenixTransport~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PhoenixTransport.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PhoenixTransport.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Deprecated/Presence.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Presence.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Presence~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Presence.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Presence.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Deprecated/Push.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Push.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Push~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Push.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Push.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Deprecated/RealtimeChannel.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeChannel.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeChannel~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeChannel.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeChannel.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Deprecated/RealtimeClient.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeClient.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeClient.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeClient.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Deprecated/RealtimeMessage.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeMessage.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeMessage~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeMessage.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeMessage.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Deprecated/TimeoutTimer.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/TimeoutTimer.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/TimeoutTimer~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/TimeoutTimer.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/TimeoutTimer.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Exports.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Exports.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Exports.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Exports.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/PostgresAction.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PostgresAction.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PostgresAction~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PostgresAction.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PostgresAction.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/PostgresActionData.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PostgresActionData.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PostgresActionData~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PostgresActionData.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PostgresActionData.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/PresenceAction.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PresenceAction.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PresenceAction~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PresenceAction.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PresenceAction.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/PushV2.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PushV2.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PushV2~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PushV2.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/PushV2.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/RealtimeChannel+AsyncAwait.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeChannel+AsyncAwait.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeChannel+AsyncAwait~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeChannel+AsyncAwait.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeChannel+AsyncAwait.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/RealtimeChannelV2.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeChannelV2.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeChannelV2~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeChannelV2.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeChannelV2.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/RealtimeClientV2.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeClientV2.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeClientV2~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeClientV2.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeClientV2.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/RealtimeError.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeError.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeError~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeError.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeError.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/RealtimeJoinConfig.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeJoinConfig.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeJoinConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeJoinConfig.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeJoinConfig.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/RealtimeMessageV2.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeMessageV2.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeMessageV2~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeMessageV2.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimeMessageV2.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/RealtimePostgresFilter.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimePostgresFilter.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimePostgresFilter~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimePostgresFilter.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimePostgresFilter.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/RealtimePostgresFilterValue.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimePostgresFilterValue.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimePostgresFilterValue~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimePostgresFilterValue.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/RealtimePostgresFilterValue.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/Types.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Types.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Types~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Types.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/Types.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/WebSocket/URLSessionWebSocket.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/URLSessionWebSocket.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/URLSessionWebSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/URLSessionWebSocket.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/URLSessionWebSocket.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Realtime/WebSocket/WebSocket.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/WebSocket.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/WebSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/WebSocket.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Realtime.build/WebSocket.dia"
+  }
+}

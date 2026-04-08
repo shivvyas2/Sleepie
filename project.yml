@@ -1,0 +1,83 @@
+name: Slipie
+options:
+  bundleIdPrefix: com.slipie
+  deploymentTarget:
+    iOS: "17.0"
+    watchOS: "10.0"
+  xcodeVersion: "16"
+  createIntermediateGroups: true
+
+packages:
+  SlipieCoreKit:
+    path: SlipieCoreKit
+  supabase-swift:
+    url: https://github.com/supabase/supabase-swift.git
+    from: 2.0.0
+
+targets:
+  Slipie:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: Slipie
+    resources:
+      - path: Slipie/Resources
+    info:
+      path: Slipie/Info.plist
+      properties:
+        UILaunchScreen:
+          UIColorName: ""
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSHealthShareUsageDescription: "Slipie reads your heart rate, HRV, and oxygen saturation to adapt sleep music to your body in real time."
+        NSHealthUpdateUsageDescription: "Slipie writes your inferred sleep stages back to Health."
+        NSMotionUsageDescription: "Motion data helps detect when you are asleep or awake."
+        UIBackgroundModes:
+          - audio
+          - fetch
+    entitlements:
+      path: Slipie/Slipie.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+    dependencies:
+      - package: SlipieCoreKit
+        product: SlipieCoreKit
+    settings:
+      SWIFT_VERSION: "6.0"
+      TARGETED_DEVICE_FAMILY: "1,2"
+      SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: "NO"
+
+  SlipieTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: SlipieTests
+    dependencies:
+      - target: Slipie
+    settings:
+      SWIFT_VERSION: "6.0"
+
+  SlipieWatch:
+    type: application
+    platform: watchOS
+    deploymentTarget: "10.0"
+    sources:
+      - path: SlipieWatch
+    info:
+      path: SlipieWatch/Info.plist
+      properties:
+        WKWatchOnly: true
+        NSHealthShareUsageDescription: "Slipie reads your biometrics to adapt sleep music."
+        NSHealthUpdateUsageDescription: "Slipie writes sleep stages to Health."
+        UIBackgroundModes:
+          - workout-processing
+    entitlements:
+      path: SlipieWatch/SlipieWatch.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+    dependencies:
+      - package: SlipieCoreKit
+        product: SlipieCoreKit
+    settings:
+      SWIFT_VERSION: "6.0"

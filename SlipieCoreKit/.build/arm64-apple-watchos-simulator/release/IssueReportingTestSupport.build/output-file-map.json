@@ -1,0 +1,19 @@
+{
+  "": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/IssueReportingTestSupport.build/IssueReportingTestSupport.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/IssueReportingTestSupport.build/IssueReportingTestSupport.o",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/IssueReportingTestSupport.build/master.swiftdeps"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/xctest-dynamic-overlay/Sources/IssueReportingTestSupport/SwiftTesting.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/IssueReportingTestSupport.build/SwiftTesting.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/IssueReportingTestSupport.build/SwiftTesting~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/IssueReportingTestSupport.build/SwiftTesting.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/IssueReportingTestSupport.build/SwiftTesting.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/xctest-dynamic-overlay/Sources/IssueReportingTestSupport/XCTest.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/IssueReportingTestSupport.build/XCTest.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/IssueReportingTestSupport.build/XCTest~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/IssueReportingTestSupport.build/XCTest.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/IssueReportingTestSupport.build/XCTest.dia"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "" : {
+    "diagnostics" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatch-primary.dia",
+    "emit-module-dependencies" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatch-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatch-primary-emit-module.dia",
+    "pch" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatch-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatch-primary.swiftdeps"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieWatch/App/SlipieWatchApp.swift" : {
+    "const-values" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatchApp.swiftconstvalues",
+    "dependencies" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatchApp.d",
+    "diagnostics" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatchApp.dia",
+    "index-unit-output-path" : "/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatchApp.o",
+    "llvm-bc" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatchApp.bc",
+    "object" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatchApp.o",
+    "swift-dependencies" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatchApp.swiftdeps",
+    "swiftmodule" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/SlipieWatchApp~partial.swiftmodule"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieWatch/App/WatchContentView.swift" : {
+    "const-values" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchContentView.swiftconstvalues",
+    "dependencies" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchContentView.d",
+    "diagnostics" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchContentView.dia",
+    "index-unit-output-path" : "/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchContentView.o",
+    "llvm-bc" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchContentView.bc",
+    "object" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchContentView.o",
+    "swift-dependencies" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchContentView.swiftdeps",
+    "swiftmodule" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchContentView~partial.swiftmodule"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieWatch/App/WatchRootView.swift" : {
+    "const-values" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchRootView.swiftconstvalues",
+    "dependencies" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchRootView.d",
+    "diagnostics" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchRootView.dia",
+    "index-unit-output-path" : "/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchRootView.o",
+    "llvm-bc" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchRootView.bc",
+    "object" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchRootView.o",
+    "swift-dependencies" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchRootView.swiftdeps",
+    "swiftmodule" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchRootView~partial.swiftmodule"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieWatch/Connectivity/WatchConnectivityBridge.swift" : {
+    "const-values" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchConnectivityBridge.swiftconstvalues",
+    "dependencies" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchConnectivityBridge.d",
+    "diagnostics" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchConnectivityBridge.dia",
+    "index-unit-output-path" : "/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchConnectivityBridge.o",
+    "llvm-bc" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchConnectivityBridge.bc",
+    "object" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchConnectivityBridge.o",
+    "swift-dependencies" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchConnectivityBridge.swiftdeps",
+    "swiftmodule" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchConnectivityBridge~partial.swiftmodule"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieWatch/Session/WatchSessionManager.swift" : {
+    "const-values" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchSessionManager.swiftconstvalues",
+    "dependencies" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchSessionManager.d",
+    "diagnostics" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchSessionManager.dia",
+    "index-unit-output-path" : "/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchSessionManager.o",
+    "llvm-bc" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchSessionManager.bc",
+    "object" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchSessionManager.o",
+    "swift-dependencies" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchSessionManager.swiftdeps",
+    "swiftmodule" : "/Users/shivvyas/Desktop/Sleep-Music/build/Slipie.build/Debug-watchsimulator/SlipieWatch.build/Objects-normal/arm64/WatchSessionManager~partial.swiftmodule"
+  }
+}

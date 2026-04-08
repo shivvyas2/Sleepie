@@ -1,0 +1,89 @@
+{
+  "": {
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/master.swiftdeps"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/Sources/SlipieCoreKit/AudioEngine/AudioParameters.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/AudioParameters.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/AudioParameters.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/AudioParameters~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/AudioParameters.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/AudioParameters.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/Sources/SlipieCoreKit/AudioEngine/ParameterMapper.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/ParameterMapper.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/ParameterMapper.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/ParameterMapper~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/ParameterMapper.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/ParameterMapper.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/Sources/SlipieCoreKit/AudioEngine/SleepAudioEngine.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepAudioEngine.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepAudioEngine.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepAudioEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepAudioEngine.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepAudioEngine.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/Sources/SlipieCoreKit/HealthKit/HealthKitManager.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/HealthKitManager.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/HealthKitManager.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/HealthKitManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/HealthKitManager.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/HealthKitManager.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/Sources/SlipieCoreKit/Models/BiometricPacket.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/BiometricPacket.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/BiometricPacket.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/BiometricPacket~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/BiometricPacket.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/BiometricPacket.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/Sources/SlipieCoreKit/Models/SleepSession.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepSession.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepSession.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepSession.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepSession.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/Sources/SlipieCoreKit/Models/SleepStage.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepStage.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepStage.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepStage~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepStage.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepStage.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/Sources/SlipieCoreKit/Models/Soundscape.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/Soundscape.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/Soundscape.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/Soundscape~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/Soundscape.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/Soundscape.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/Sources/SlipieCoreKit/Networking/SlipieSupabaseClient.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieSupabaseClient.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieSupabaseClient.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieSupabaseClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieSupabaseClient.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieSupabaseClient.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/Sources/SlipieCoreKit/Networking/SlipieSupabaseConfig.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieSupabaseConfig.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieSupabaseConfig.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieSupabaseConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieSupabaseConfig.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieSupabaseConfig.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/Sources/SlipieCoreKit/SleepTracking/SleepStageClassifier.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepStageClassifier.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepStageClassifier.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepStageClassifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepStageClassifier.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SleepStageClassifier.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/Sources/SlipieCoreKit/SlipieCoreKit.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieCoreKit.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieCoreKit.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieCoreKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieCoreKit.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKit.build/SlipieCoreKit.dia"
+  }
+}

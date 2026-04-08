@@ -1,0 +1,4 @@
+module SlipieCoreKit {
+header "SlipieCoreKit-Swift.h"
+export *
+}

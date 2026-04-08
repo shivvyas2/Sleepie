@@ -1,0 +1,37 @@
+{
+  "": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Supabase.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Supabase.o",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/master.swiftdeps"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Supabase/Constants.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Constants.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Constants~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Constants.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Constants.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Supabase/Deprecated.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Deprecated.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Deprecated.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Deprecated.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Supabase/Exports.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Exports.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Exports.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Exports.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Supabase/SupabaseClient.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/SupabaseClient.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/SupabaseClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/SupabaseClient.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/SupabaseClient.dia"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/checkouts/supabase-swift/Sources/Supabase/Types.swift": {
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Types.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Types~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Types.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-watchos-simulator/release/Supabase.build/Types.dia"
+  }
+}

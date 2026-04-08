@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKitPackageTests.build/master.swiftdeps"
+  },
+  "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKitPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKitPackageTests.build/runner.d",
+    "object": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKitPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKitPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKitPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/shivvyas/Desktop/Sleep-Music/SlipieCoreKit/.build/arm64-apple-macosx/debug/SlipieCoreKitPackageTests.build/runner.dia"
+  }
+}
