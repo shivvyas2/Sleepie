@@ -20,17 +20,8 @@ struct WindDownView: View {
         }
     }
 
-    private var backgroundLayer: some View {
-        ZStack {
-            SlipieColors.background.ignoresSafeArea()
-            RadialGradient(
-                colors: [SlipieColors.accentStart.opacity(0.3), SlipieColors.background],
-                center: .top,
-                startRadius: 0,
-                endRadius: 400
-            )
-            .ignoresSafeArea()
-        }
+    private var backgroundLayer: SlipieBackgroundView {
+        SlipieBackgroundView()
     }
 
     private var headerSection: some View {
@@ -49,47 +40,17 @@ struct WindDownView: View {
     }
 
     private var soundscapeSelector: some View {
-        GlowingCardView {
-            VStack(alignment: .leading, spacing: 12) {
-                Text("Soundscape")
-                    .font(SlipieTypography.caption)
-                    .foregroundStyle(SlipieColors.textSecondary)
-                    .textCase(.uppercase)
-                ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 12) {
-                        ForEach(Soundscape.all) { soundscape in
-                            SoundscapeChip(
-                                soundscape: soundscape,
-                                isSelected: soundscape.id == env.selectedSoundscape.id
-                            ) {
-                                viewModel.selectSoundscape(soundscape, using: env.sessionManager)
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        SoundscapeSelectorView(selectedSoundscape: Binding(
+            get: { env.selectedSoundscape },
+            set: { viewModel.selectSoundscape($0, using: env.sessionManager) }
+        ))
     }
 
     private var timerSection: some View {
-        GlowingCardView {
-            HStack {
-                VStack(alignment: .leading, spacing: 4) {
-                    Text("Sleep Timer")
-                        .font(SlipieTypography.caption)
-                        .foregroundStyle(SlipieColors.textSecondary)
-                        .textCase(.uppercase)
-                    Text("\(viewModel.timerMinutes) min")
-                        .font(SlipieTypography.headline)
-                        .foregroundStyle(SlipieColors.textPrimary)
-                }
-                Spacer()
-                Image(systemName: SlipieSymbols.timer)
-                    .foregroundStyle(SlipieColors.accentEnd)
-                    .font(.title2)
-            }
-        }
-        .onTapGesture { viewModel.showTimerPicker = true }
+        SleepTimerCard(
+            minutes: $viewModel.timerMinutes,
+            showPicker: $viewModel.showTimerPicker
+        )
         .sheet(isPresented: $viewModel.showTimerPicker) {
             TimerPickerSheet(minutes: $viewModel.timerMinutes)
         }

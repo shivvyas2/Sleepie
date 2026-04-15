@@ -14,6 +14,9 @@
 		DD0000000000000000000002 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000001 /* Color+Hex.swift */; };
 		EE0000000000000000000101 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000001 /* AudioService.swift */; };
 		EE0000000000000000000102 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000002 /* SessionManager.swift */; };
+		HH0000000000000000000001 /* SoundscapeSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = HH0000000000000000000011 /* SoundscapeSelectorView.swift */; };
+		HH0000000000000000000002 /* SleepTimerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = HH0000000000000000000012 /* SleepTimerCard.swift */; };
+		HH0000000000000000000003 /* SlipieBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = HH0000000000000000000013 /* SlipieBackgroundView.swift */; };
 		BB0000000000000000000002 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000002 /* HomeViewModel.swift */; };
 		BB0000000000000000000003 /* ActiveSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000003 /* ActiveSessionViewModel.swift */; };
 		BB0000000000000000000004 /* InsightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000004 /* InsightsViewModel.swift */; };
@@ -96,6 +99,9 @@
 		DD0000000000000000000001 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		EE0000000000000000000001 /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
 		EE0000000000000000000002 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		HH0000000000000000000011 /* SoundscapeSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundscapeSelectorView.swift; sourceTree = "<group>"; };
+		HH0000000000000000000012 /* SleepTimerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTimerCard.swift; sourceTree = "<group>"; };
+		HH0000000000000000000013 /* SlipieBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipieBackgroundView.swift; sourceTree = "<group>"; };
 		AA0000000000000000000002 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		AA0000000000000000000003 /* ActiveSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSessionViewModel.swift; sourceTree = "<group>"; };
 		AA0000000000000000000004 /* InsightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsViewModel.swift; sourceTree = "<group>"; };
@@ -493,6 +499,9 @@
 				EE00000000000000000000A1 /* SoundscapeChip.swift */,
 				272E66CEA4290F499995CDCA /* StarFieldView.swift */,
 				EE00000000000000000000A2 /* TimerPickerSheet.swift */,
+				HH0000000000000000000012 /* SleepTimerCard.swift */,
+				HH0000000000000000000013 /* SlipieBackgroundView.swift */,
+				HH0000000000000000000011 /* SoundscapeSelectorView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -763,6 +772,9 @@
 				BB0000000000000000000001 /* AppFlowState.swift in Sources */,
 				EE0000000000000000000101 /* AudioService.swift in Sources */,
 				EE0000000000000000000102 /* SessionManager.swift in Sources */,
+				HH0000000000000000000001 /* SoundscapeSelectorView.swift in Sources */,
+				HH0000000000000000000002 /* SleepTimerCard.swift in Sources */,
+				HH0000000000000000000003 /* SlipieBackgroundView.swift in Sources */,
 				FF00000000000000000000AF /* AvatarItem.swift in Sources */,
 				FF00000000000000000000B3 /* AwardsTabView.swift in Sources */,
 				2C9B5D21F9655CCFABE421F4 /* BiometricIndicator.swift in Sources */,
