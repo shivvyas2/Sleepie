@@ -11,10 +11,10 @@ struct BiometricIndicator: View {
                 .foregroundStyle(SlipieColors.accentGlow)
                 .font(.title2)
             Text(value)
-                .font(SlipieTypography.headline())
+                .font(SlipieTypography.headline)
                 .foregroundStyle(SlipieColors.textPrimary)
             Text(label)
-                .font(SlipieTypography.caption())
+                .font(SlipieTypography.caption)
                 .foregroundStyle(SlipieColors.textSecondary)
         }
     }

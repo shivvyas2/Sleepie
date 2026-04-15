@@ -10,7 +10,15 @@
 		039B0A938F27501538BAF36E /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA7263554F8D96A0C884A3 /* WatchContentView.swift */; };
 		12B6E9B8E23F9FBA86889A49 /* PhoneConnectivityReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0503FA849C2DEBC76671C226 /* PhoneConnectivityReceiver.swift */; };
 		14C68CF36461A8551193EC5B /* SoundscapeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192DA5AD7B2AB373FCF3C2C6 /* SoundscapeDetailView.swift */; };
-		150F335FFB936B1195FE5778 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A9934FF76CF2275894374 /* ContentView.swift */; };
+		BB0000000000000000000001 /* AppFlowState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000001 /* AppFlowState.swift */; };
+		DD0000000000000000000002 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000001 /* Color+Hex.swift */; };
+		BB0000000000000000000002 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000002 /* HomeViewModel.swift */; };
+		BB0000000000000000000003 /* ActiveSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000003 /* ActiveSessionViewModel.swift */; };
+		BB0000000000000000000004 /* InsightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000004 /* InsightsViewModel.swift */; };
+		BB0000000000000000000005 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000005 /* SignInViewModel.swift */; };
+		BB0000000000000000000006 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000006 /* OnboardingViewModel.swift */; };
+		BB0000000000000000000007 /* SoundscapeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000007 /* SoundscapeDetailViewModel.swift */; };
+		BB0000000000000000000008 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000008 /* LibraryViewModel.swift */; };
 		24BC8C5042D19FEBD67FFE23 /* SlipieTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D91AC7940DC5A3FD2047B9 /* SlipieTypography.swift */; };
 		25807F894AF9A606678B562E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1953D168FF0C181D7ADA2F07 /* OnboardingView.swift */; };
 		2631E2C8BBE069C23AE307BB /* WindDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A906D4E9B8543DDA42EE6CB0 /* WindDownView.swift */; };
@@ -63,7 +71,15 @@
 		192DA5AD7B2AB373FCF3C2C6 /* SoundscapeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundscapeDetailView.swift; sourceTree = "<group>"; };
 		1953D168FF0C181D7ADA2F07 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		1A8D436A19C1C7A39C5CA23F /* SleepTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTabView.swift; sourceTree = "<group>"; };
-		229A9934FF76CF2275894374 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000001 /* AppFlowState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowState.swift; sourceTree = "<group>"; };
+		DD0000000000000000000001 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000002 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AA0000000000000000000003 /* ActiveSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSessionViewModel.swift; sourceTree = "<group>"; };
+		AA0000000000000000000004 /* InsightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsViewModel.swift; sourceTree = "<group>"; };
+		AA0000000000000000000005 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		AA0000000000000000000006 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		AA0000000000000000000007 /* SoundscapeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundscapeDetailViewModel.swift; sourceTree = "<group>"; };
+		AA0000000000000000000008 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
 		272E66CEA4290F499995CDCA /* StarFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarFieldView.swift; sourceTree = "<group>"; };
 		274CDECD49AF112F92691598 /* Slipie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slipie.entitlements; sourceTree = "<group>"; };
 		2ED7557067B1E4585905CA63 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
@@ -128,10 +144,27 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		11110096889ADBDC67136660 /* Profile */ = {
+		CC000000000000000000000D /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				9818B96B8E1E6F311D5910DF /* ProfileTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC000000000000000000000E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000005 /* SignInViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		11110096889ADBDC67136660 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CC000000000000000000000D /* Views */,
+				CC000000000000000000000E /* ViewModels */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -178,11 +211,28 @@
 			path = Connectivity;
 			sourceTree = "<group>";
 		};
-		43A5562389CFF5A4350E18AF /* Onboarding */ = {
+		CC000000000000000000000F /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				7CC085808807AE8BDB88B249 /* GoalSelectionView.swift */,
 				1953D168FF0C181D7ADA2F07 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000010 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000006 /* OnboardingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		43A5562389CFF5A4350E18AF /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CC000000000000000000000F /* Views */,
+				CC0000000000000000000010 /* ViewModels */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -195,18 +245,43 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		563213B24326E400846259BB /* Splash */ = {
+		CC0000000000000000000011 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				0AD9A2A45414263BADB78742 /* SplashView.swift */,
 			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		563213B24326E400846259BB /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000011 /* Views */,
+			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63475FC6ECD92B18E0EDE0CE /* InsightsTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC000000000000000000000A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000004 /* InsightsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		5F0FC889293B6C113F339931 /* Insights */ = {
 			isa = PBXGroup;
 			children = (
-				63475FC6ECD92B18E0EDE0CE /* InsightsTabView.swift */,
+				CC0000000000000000000009 /* Views */,
+				CC000000000000000000000A /* ViewModels */,
 			);
 			path = Insights;
 			sourceTree = "<group>";
@@ -215,22 +290,61 @@
 			isa = PBXGroup;
 			children = (
 				6BE766161F26271B79980E6C /* AppEnvironment.swift */,
-				229A9934FF76CF2275894374 /* ContentView.swift */,
-				0503FA849C2DEBC76671C226 /* PhoneConnectivityReceiver.swift */,
 				621576649C4039DDA1DFF2A9 /* RootView.swift */,
 				17540DED716F81D10995617C /* SlipieApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		7E1B82AEF0C9044B2049E8AD /* Sleep */ = {
+		CC0000000000000000000005 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				B304D0AC4E1B1B8B821CC5D2 /* ActiveSessionView.swift */,
 				1A8D436A19C1C7A39C5CA23F /* SleepTabView.swift */,
 				A906D4E9B8543DDA42EE6CB0 /* WindDownView.swift */,
 			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000003 /* ActiveSessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7E1B82AEF0C9044B2049E8AD /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000005 /* Views */,
+				CC0000000000000000000006 /* ViewModels */,
+			);
 			path = Sleep;
+			sourceTree = "<group>";
+		};
+		DD0000000000000000000003 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD0000000000000000000001 /* Color+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000001 /* AppFlowState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000002 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0503FA849C2DEBC76671C226 /* PhoneConnectivityReceiver.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		8003F145F94490AD4456A36F /* Slipie */ = {
@@ -239,10 +353,13 @@
 				6A041F0DD97565FD38C80263 /* Info.plist */,
 				274CDECD49AF112F92691598 /* Slipie.entitlements */,
 				6D15462AA5D0CCF49BA84B39 /* App */,
-				D75FBEFD97DD0642FBA8C546 /* Components */,
-				0344B391E778F0493159F6BC /* Configuration */,
-				E6E45AA1A705BBE2C4AE8C9B /* DesignSystem */,
+				CC0000000000000000000001 /* Models */,
+				CC0000000000000000000002 /* Services */,
 				95FC0B6156FBF1ECE6A8E9EF /* Features */,
+				D75FBEFD97DD0642FBA8C546 /* Components */,
+				E6E45AA1A705BBE2C4AE8C9B /* DesignSystem */,
+				DD0000000000000000000003 /* Extensions */,
+				0344B391E778F0493159F6BC /* Configuration */,
 				48A142482811DA3353E6C974 /* Resources */,
 			);
 			path = Slipie;
@@ -275,11 +392,28 @@
 			path = SlipieWatch;
 			sourceTree = "<group>";
 		};
-		BAB051964BC1A1ABF4B5DBFF /* Soundscapes */ = {
+		CC0000000000000000000007 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				192DA5AD7B2AB373FCF3C2C6 /* SoundscapeDetailView.swift */,
 				D0848C261359778F5D35FE5A /* SoundscapesTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000008 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000007 /* SoundscapeDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BAB051964BC1A1ABF4B5DBFF /* Soundscapes */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000007 /* Views */,
+				CC0000000000000000000008 /* ViewModels */,
 			);
 			path = Soundscapes;
 			sourceTree = "<group>";
@@ -297,10 +431,27 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		DE006794C7D2D70552A7BBBD /* Library */ = {
+		CC000000000000000000000B /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				81CC302E4B3845D39B1EDBDD /* LibraryTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC000000000000000000000C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000008 /* LibraryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DE006794C7D2D70552A7BBBD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				CC000000000000000000000B /* Views */,
+				CC000000000000000000000C /* ViewModels */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -325,10 +476,27 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		F2C11177522E9700BFFDD103 /* Home */ = {
+		CC0000000000000000000003 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				50FD0574F3A66042304B8604 /* HomeTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000004 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000002 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F2C11177522E9700BFFDD103 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000003 /* Views */,
+				CC0000000000000000000004 /* ViewModels */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -475,28 +643,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				5870E39AB8492B9444CFB314 /* ActiveSessionView.swift in Sources */,
+				BB0000000000000000000003 /* ActiveSessionViewModel.swift in Sources */,
 				611866EE61979738A4B47659 /* AppEnvironment.swift in Sources */,
+				BB0000000000000000000001 /* AppFlowState.swift in Sources */,
 				2C9B5D21F9655CCFABE421F4 /* BiometricIndicator.swift in Sources */,
-				150F335FFB936B1195FE5778 /* ContentView.swift in Sources */,
+				DD0000000000000000000002 /* Color+Hex.swift in Sources */,
 				D66345F2ACF4E8B667607FFD /* GlowingCardView.swift in Sources */,
 				930FC4E65DC671D4DC4E1055 /* GoalSelectionView.swift in Sources */,
 				6F2E2D3B35ABF175CD8711CA /* HeroHeaderView.swift in Sources */,
 				9ADE0AADECC887A4C18C0F8F /* HomeTabView.swift in Sources */,
+				BB0000000000000000000002 /* HomeViewModel.swift in Sources */,
 				F35957ABB00A9BCDA10ED7AD /* InsightsTabView.swift in Sources */,
+				BB0000000000000000000004 /* InsightsViewModel.swift in Sources */,
 				9D07C06EAF7BA23481B3F8A2 /* LibraryTabView.swift in Sources */,
+				BB0000000000000000000008 /* LibraryViewModel.swift in Sources */,
 				C5CDDA337283C6E4392B81A2 /* MiniPlayerView.swift in Sources */,
 				25807F894AF9A606678B562E /* OnboardingView.swift in Sources */,
+				BB0000000000000000000006 /* OnboardingViewModel.swift in Sources */,
 				12B6E9B8E23F9FBA86889A49 /* PhoneConnectivityReceiver.swift in Sources */,
 				8DC212823CB0AE8CAE57614F /* PillButton.swift in Sources */,
 				DAC7E5D52DBED32E2D6E5C74 /* ProfileTabView.swift in Sources */,
 				AAF0E2978577B3D25318B34B /* RootView.swift in Sources */,
 				3B07B899236C4CCBE27DF5CB /* Secrets.swift in Sources */,
+				BB0000000000000000000005 /* SignInViewModel.swift in Sources */,
 				DFA3CDB002D80BFB41F73AF2 /* SleepTabView.swift in Sources */,
 				429465FA45EFA30A9DA8985B /* SlipieApp.swift in Sources */,
 				977FFF49FF447F830C0C2782 /* SlipieColors.swift in Sources */,
 				B6643949F0C57BFAF8BEA104 /* SlipieSymbols.swift in Sources */,
 				24BC8C5042D19FEBD67FFE23 /* SlipieTypography.swift in Sources */,
 				14C68CF36461A8551193EC5B /* SoundscapeDetailView.swift in Sources */,
+				BB0000000000000000000007 /* SoundscapeDetailViewModel.swift in Sources */,
 				3FDA06B594B3AA951B88B760 /* SoundscapesTabView.swift in Sources */,
 				E65E40EA32C30E0D049476DF /* SplashView.swift in Sources */,
 				7AF055DDBD6456843B070018 /* StarFieldView.swift in Sources */,

@@ -13,7 +13,7 @@ struct PillButton: View {
             HStack(spacing: 8) {
                 Image(systemName: icon)
                 Text(title)
-                    .font(SlipieTypography.headline())
+                    .font(SlipieTypography.headline)
             }
             .foregroundStyle(style == .filled ? SlipieColors.textPrimary : SlipieColors.accentEnd)
             .padding(.horizontal, 24)

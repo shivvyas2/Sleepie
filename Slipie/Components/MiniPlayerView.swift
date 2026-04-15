@@ -46,11 +46,11 @@ struct MiniPlayerView: View {
     private var trackInfo: some View {
         VStack(alignment: .leading, spacing: 2) {
             Text(env.selectedSoundscape.name)
-                .font(SlipieTypography.headline())
+                .font(SlipieTypography.headline)
                 .foregroundStyle(SlipieColors.textPrimary)
                 .lineLimit(1)
             Text("Sleep Session Active")
-                .font(SlipieTypography.caption())
+                .font(SlipieTypography.caption)
                 .foregroundStyle(SlipieColors.textSecondary)
         }
     }

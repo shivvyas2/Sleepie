@@ -1,11 +1,5 @@
 import SwiftUI
 
-enum AppFlowState {
-    case splash
-    case onboarding
-    case main
-}
-
 @main
 struct SlipieApp: App {
     @StateObject private var env = AppEnvironment()

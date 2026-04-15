@@ -36,10 +36,10 @@ struct CreateTabView: View {
                         .font(.system(size: 52))
                         .foregroundStyle(SlipieColors.accentGradient)
                     Text("Create")
-                        .font(SlipieTypography.title())
+                        .font(SlipieTypography.title)
                         .foregroundStyle(SlipieColors.textPrimary)
                     Text("Custom soundscapes coming soon")
-                        .font(SlipieTypography.body())
+                        .font(SlipieTypography.body)
                         .foregroundStyle(SlipieColors.textSecondary)
                 }
             }
@@ -59,10 +59,10 @@ struct AlarmTabView: View {
                         .font(.system(size: 52))
                         .foregroundStyle(SlipieColors.accentGradient)
                     Text("Alarm")
-                        .font(SlipieTypography.title())
+                        .font(SlipieTypography.title)
                         .foregroundStyle(SlipieColors.textPrimary)
                     Text("Smart sleep alarms coming soon")
-                        .font(SlipieTypography.body())
+                        .font(SlipieTypography.body)
                         .foregroundStyle(SlipieColors.textSecondary)
                 }
             }
@@ -82,10 +82,10 @@ struct AwardsTabView: View {
                         .font(.system(size: 52))
                         .foregroundStyle(SlipieColors.accentGradient)
                     Text("Awards")
-                        .font(SlipieTypography.title())
+                        .font(SlipieTypography.title)
                         .foregroundStyle(SlipieColors.textPrimary)
                     Text("Earn badges for healthy sleep habits")
-                        .font(SlipieTypography.body())
+                        .font(SlipieTypography.body)
                         .foregroundStyle(SlipieColors.textSecondary)
                 }
             }
