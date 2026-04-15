@@ -1,7 +1,7 @@
 ---
 title: "refactor: MVVM Cleanup and Architecture"
 type: refactor
-status: active
+status: completed
 date: 2026-04-15
 ---
 
