@@ -21,6 +21,7 @@
 		BB0000000000000000000006 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000006 /* OnboardingViewModel.swift */; };
 		BB0000000000000000000007 /* SoundscapeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000007 /* SoundscapeDetailViewModel.swift */; };
 		BB0000000000000000000008 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000008 /* LibraryViewModel.swift */; };
+		GG0000000000000000000001 /* WindDownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = GG0000000000000000000002 /* WindDownViewModel.swift */; };
 		24BC8C5042D19FEBD67FFE23 /* SlipieTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D91AC7940DC5A3FD2047B9 /* SlipieTypography.swift */; };
 		25807F894AF9A606678B562E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1953D168FF0C181D7ADA2F07 /* OnboardingView.swift */; };
 		2631E2C8BBE069C23AE307BB /* WindDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A906D4E9B8543DDA42EE6CB0 /* WindDownView.swift */; };
@@ -105,6 +106,7 @@
 		AA0000000000000000000006 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		AA0000000000000000000007 /* SoundscapeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundscapeDetailViewModel.swift; sourceTree = "<group>"; };
 		AA0000000000000000000008 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		GG0000000000000000000002 /* WindDownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindDownViewModel.swift; sourceTree = "<group>"; };
 		272E66CEA4290F499995CDCA /* StarFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarFieldView.swift; sourceTree = "<group>"; };
 		274CDECD49AF112F92691598 /* Slipie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slipie.entitlements; sourceTree = "<group>"; };
 		2ED7557067B1E4585905CA63 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
@@ -357,6 +359,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0000000000000000000003 /* ActiveSessionViewModel.swift */,
+				GG0000000000000000000002 /* WindDownViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -817,6 +820,7 @@
 				7AF055DDBD6456843B070018 /* StarFieldView.swift in Sources */,
 				FF00000000000000000000A2 /* TimerPickerSheet.swift in Sources */,
 				2631E2C8BBE069C23AE307BB /* WindDownView.swift in Sources */,
+				GG0000000000000000000001 /* WindDownViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

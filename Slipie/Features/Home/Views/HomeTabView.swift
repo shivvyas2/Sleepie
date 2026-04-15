@@ -82,9 +82,9 @@ struct HomeTabView: View {
 
                 Button {
                     if env.isSessionActive {
-                        env.endSession()
+                        viewModel.endSession(using: env.sessionManager)
                     } else {
-                        env.startSession()
+                        viewModel.startSession(using: env.sessionManager)
                     }
                 } label: {
                     HStack(spacing: 6) {
@@ -118,7 +118,7 @@ struct HomeTabView: View {
                     ForEach(Soundscape.all.prefix(4)) { soundscape in
                         RecentSoundscapeCard(soundscape: soundscape)
                             .onTapGesture {
-                                env.selectedSoundscape = soundscape
+                                viewModel.selectSoundscape(soundscape, using: env.sessionManager)
                             }
                     }
                 }
@@ -153,7 +153,7 @@ struct HomeTabView: View {
                                 soundscape: soundscape,
                                 isSelected: soundscape.id == env.selectedSoundscape.id
                             ) {
-                                env.selectedSoundscape = soundscape
+                                viewModel.selectSoundscape(soundscape, using: env.sessionManager)
                             }
                         }
                     }

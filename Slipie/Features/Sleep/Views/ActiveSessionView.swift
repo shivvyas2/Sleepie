@@ -44,7 +44,7 @@ struct ActiveSessionView: View {
     private var biometricCard: some View {
         GlowingCardView {
             HStack(spacing: 40) {
-                BiometricIndicator(icon: SlipieSymbols.heartRate, label: "Heart Rate", value: "\(Int(viewModel.currentHR)) bpm")
+                BiometricIndicator(icon: SlipieSymbols.heartRate, label: "Heart Rate", value: "\(Int(env.sessionManager.currentHR)) bpm")
                 BiometricIndicator(icon: SlipieSymbols.oxygen, label: "SpO2", value: "98%")
             }
             .frame(maxWidth: .infinity)
@@ -59,7 +59,7 @@ struct ActiveSessionView: View {
                         .font(SlipieTypography.caption)
                         .foregroundStyle(SlipieColors.textSecondary)
                         .textCase(.uppercase)
-                    Text(viewModel.currentStage.rawValue.capitalized)
+                    Text(env.sessionManager.currentStage.rawValue.capitalized)
                         .font(SlipieTypography.title2)
                         .foregroundStyle(SlipieColors.textPrimary)
                 }
@@ -73,7 +73,7 @@ struct ActiveSessionView: View {
 
     private var endButton: some View {
         PillButton(title: "End Session", icon: SlipieSymbols.stop, style: .outline) {
-            env.endSession()
+            viewModel.endSession(using: env.sessionManager)
         }
         .padding(.bottom, 32)
     }

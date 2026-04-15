@@ -3,8 +3,7 @@ import SlipieCoreKit
 
 struct WindDownView: View {
     @EnvironmentObject var env: AppEnvironment
-    @State private var timerMinutes = 30
-    @State private var showTimerPicker = false
+    @StateObject private var viewModel = WindDownViewModel()
 
     var body: some View {
         ZStack {
@@ -63,7 +62,7 @@ struct WindDownView: View {
                                 soundscape: soundscape,
                                 isSelected: soundscape.id == env.selectedSoundscape.id
                             ) {
-                                env.selectedSoundscape = soundscape
+                                viewModel.selectSoundscape(soundscape, using: env.sessionManager)
                             }
                         }
                     }
@@ -80,7 +79,7 @@ struct WindDownView: View {
                         .font(SlipieTypography.caption)
                         .foregroundStyle(SlipieColors.textSecondary)
                         .textCase(.uppercase)
-                    Text("\(timerMinutes) min")
+                    Text("\(viewModel.timerMinutes) min")
                         .font(SlipieTypography.headline)
                         .foregroundStyle(SlipieColors.textPrimary)
                 }
@@ -90,15 +89,15 @@ struct WindDownView: View {
                     .font(.title2)
             }
         }
-        .onTapGesture { showTimerPicker = true }
-        .sheet(isPresented: $showTimerPicker) {
-            TimerPickerSheet(minutes: $timerMinutes)
+        .onTapGesture { viewModel.showTimerPicker = true }
+        .sheet(isPresented: $viewModel.showTimerPicker) {
+            TimerPickerSheet(minutes: $viewModel.timerMinutes)
         }
     }
 
     private var startButton: some View {
         PillButton(title: "Start Sleep", icon: SlipieSymbols.play, style: .filled) {
-            env.startSession()
+            viewModel.startSession(using: env.sessionManager)
         }
         .frame(maxWidth: .infinity)
     }

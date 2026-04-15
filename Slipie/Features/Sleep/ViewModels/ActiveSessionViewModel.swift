@@ -3,8 +3,6 @@ import SlipieCoreKit
 
 @MainActor
 final class ActiveSessionViewModel: ObservableObject {
-    @Published var currentStage: SleepStage = .awake
-    @Published var currentHR: Double = 65
     @Published var elapsed: TimeInterval = 0
 
     private var timer: Timer?
@@ -30,5 +28,11 @@ final class ActiveSessionViewModel: ObservableObject {
             return String(format: "%d:%02d:%02d", h, m, s)
         }
         return String(format: "%02d:%02d", m, s)
+    }
+
+    // MARK: - Session Control
+
+    func endSession(using session: SessionManager) {
+        session.endSession()
     }
 }

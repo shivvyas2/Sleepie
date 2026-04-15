@@ -1,4 +1,5 @@
 import SwiftUI
+import SlipieCoreKit
 
 @MainActor
 final class HomeViewModel: ObservableObject {
@@ -13,5 +14,19 @@ final class HomeViewModel: ObservableObject {
         case 17..<21: return "Good evening"
         default: return "Good night"
         }
+    }
+
+    // MARK: - Session Control
+
+    func startSession(using session: SessionManager) {
+        session.startSession()
+    }
+
+    func endSession(using session: SessionManager) {
+        session.endSession()
+    }
+
+    func selectSoundscape(_ soundscape: Soundscape, using session: SessionManager) {
+        session.selectedSoundscape = soundscape
     }
 }
