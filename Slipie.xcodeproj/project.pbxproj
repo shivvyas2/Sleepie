@@ -70,9 +70,6 @@
 		FF00000000000000000000AE /* SoundscapeCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000000AE /* SoundscapeCardData.swift */; };
 		FF00000000000000000000AF /* AvatarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000000AF /* AvatarItem.swift */; };
 		FF00000000000000000000B0 /* StarParticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000000B0 /* StarParticle.swift */; };
-		FF00000000000000000000B1 /* CreateTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000000B1 /* CreateTabView.swift */; };
-		FF00000000000000000000B2 /* AlarmTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000000B2 /* AlarmTabView.swift */; };
-		FF00000000000000000000B3 /* AwardsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000000B3 /* AwardsTabView.swift */; };
 		FF00000000000000000000B4 /* PagodaSilhouetteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000000B4 /* PagodaSilhouetteView.swift */; };
 		FF00000000000000000000B5 /* LibraryConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00000000000000000000B5 /* LibraryConstants.swift */; };
 /* End PBXBuildFile section */
@@ -157,9 +154,6 @@
 		EE00000000000000000000AE /* SoundscapeCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundscapeCardData.swift; sourceTree = "<group>"; };
 		EE00000000000000000000AF /* AvatarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarItem.swift; sourceTree = "<group>"; };
 		EE00000000000000000000B0 /* StarParticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarParticle.swift; sourceTree = "<group>"; };
-		EE00000000000000000000B1 /* CreateTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTabView.swift; sourceTree = "<group>"; };
-		EE00000000000000000000B2 /* AlarmTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTabView.swift; sourceTree = "<group>"; };
-		EE00000000000000000000B3 /* AwardsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsTabView.swift; sourceTree = "<group>"; };
 		EE00000000000000000000B4 /* PagodaSilhouetteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagodaSilhouetteView.swift; sourceTree = "<group>"; };
 		EE00000000000000000000B5 /* LibraryConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */

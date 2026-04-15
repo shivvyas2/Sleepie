@@ -8,17 +8,17 @@ struct RootView: View {
             HomeTabView()
                 .tabItem { Label("Home", systemImage: "house.fill") }
 
-            LibraryTabView()
-                .tabItem { Label("Library", systemImage: "books.vertical.fill") }
+            SoundscapesTabView()
+                .tabItem { Label("Sounds", systemImage: "waveform") }
 
-            CreateTabView()
-                .tabItem { Label("Create", systemImage: "waveform.badge.plus") }
+            SleepTabView()
+                .tabItem { Label("Sleep", systemImage: "moon.stars.fill") }
 
-            AlarmTabView()
-                .tabItem { Label("Alarm", systemImage: "alarm.fill") }
+            InsightsTabView()
+                .tabItem { Label("Insights", systemImage: "chart.xyaxis.line") }
 
-            AwardsTabView()
-                .tabItem { Label("Awards", systemImage: "trophy.fill") }
+            ProfileTabView()
+                .tabItem { Label("Profile", systemImage: "person.crop.circle") }
         }
         .tint(SlipieColors.accentEnd)
     }
