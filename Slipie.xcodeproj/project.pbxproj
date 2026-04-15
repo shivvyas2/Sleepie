@@ -12,6 +12,8 @@
 		14C68CF36461A8551193EC5B /* SoundscapeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192DA5AD7B2AB373FCF3C2C6 /* SoundscapeDetailView.swift */; };
 		BB0000000000000000000001 /* AppFlowState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000001 /* AppFlowState.swift */; };
 		DD0000000000000000000002 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000000000000000000001 /* Color+Hex.swift */; };
+		EE0000000000000000000101 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000001 /* AudioService.swift */; };
+		EE0000000000000000000102 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000002 /* SessionManager.swift */; };
 		BB0000000000000000000002 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000002 /* HomeViewModel.swift */; };
 		BB0000000000000000000003 /* ActiveSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000003 /* ActiveSessionViewModel.swift */; };
 		BB0000000000000000000004 /* InsightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000004 /* InsightsViewModel.swift */; };
@@ -94,6 +96,8 @@
 		1A8D436A19C1C7A39C5CA23F /* SleepTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTabView.swift; sourceTree = "<group>"; };
 		AA0000000000000000000001 /* AppFlowState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowState.swift; sourceTree = "<group>"; };
 		DD0000000000000000000001 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		EE0000000000000000000001 /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		EE0000000000000000000002 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		AA0000000000000000000002 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		AA0000000000000000000003 /* ActiveSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSessionViewModel.swift; sourceTree = "<group>"; };
 		AA0000000000000000000004 /* InsightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsViewModel.swift; sourceTree = "<group>"; };
@@ -390,7 +394,9 @@
 		CC0000000000000000000002 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				EE0000000000000000000001 /* AudioService.swift */,
 				0503FA849C2DEBC76671C226 /* PhoneConnectivityReceiver.swift */,
+				EE0000000000000000000002 /* SessionManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -758,6 +764,8 @@
 				FF00000000000000000000B2 /* AlarmTabView.swift in Sources */,
 				611866EE61979738A4B47659 /* AppEnvironment.swift in Sources */,
 				BB0000000000000000000001 /* AppFlowState.swift in Sources */,
+				EE0000000000000000000101 /* AudioService.swift in Sources */,
+				EE0000000000000000000102 /* SessionManager.swift in Sources */,
 				FF00000000000000000000AF /* AvatarItem.swift in Sources */,
 				FF00000000000000000000B3 /* AwardsTabView.swift in Sources */,
 				2C9B5D21F9655CCFABE421F4 /* BiometricIndicator.swift in Sources */,

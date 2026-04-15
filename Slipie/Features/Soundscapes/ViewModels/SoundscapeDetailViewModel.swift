@@ -5,18 +5,18 @@ import SlipieCoreKit
 final class SoundscapeDetailViewModel: ObservableObject {
     @Published var isPreviewing = false
 
-    func togglePreview(soundscape: Soundscape, audioEngine: SleepAudioEngine) {
+    func togglePreview(soundscape: Soundscape, audioService: AudioService) {
         if isPreviewing {
-            audioEngine.stop()
+            audioService.stopPreview()
         } else {
-            try? audioEngine.start(soundscape: soundscape)
+            try? audioService.preview(soundscape: soundscape)
         }
         isPreviewing.toggle()
     }
 
-    func stopPreviewIfNeeded(audioEngine: SleepAudioEngine) {
+    func stopPreviewIfNeeded(audioService: AudioService) {
         if isPreviewing {
-            audioEngine.stop()
+            audioService.stopPreview()
             isPreviewing = false
         }
     }

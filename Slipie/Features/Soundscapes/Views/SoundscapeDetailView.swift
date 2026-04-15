@@ -31,7 +31,7 @@ struct SoundscapeDetailView: View {
                         title: viewModel.isPreviewing ? "Stop" : "Preview",
                         icon: viewModel.isPreviewing ? SlipieSymbols.stop : SlipieSymbols.play,
                         style: .outline
-                    ) { viewModel.togglePreview(soundscape: soundscape, audioEngine: env.audioEngine) }
+                    ) { viewModel.togglePreview(soundscape: soundscape, audioService: env.audioService) }
 
                     PillButton(title: "Use This", icon: SlipieSymbols.moon, style: .filled) {
                         env.selectedSoundscape = soundscape
@@ -42,7 +42,7 @@ struct SoundscapeDetailView: View {
         }
         .navigationBarTitleDisplayMode(.inline)
         .onDisappear {
-            viewModel.stopPreviewIfNeeded(audioEngine: env.audioEngine)
+            viewModel.stopPreviewIfNeeded(audioService: env.audioService)
         }
     }
 }
