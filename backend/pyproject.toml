@@ -1,0 +1,33 @@
+[project]
+name = "sleepie-backend"
+version = "0.1.0"
+description = "FastAPI backend for Sleepie — AI-driven adaptive sleep music"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.34.0",
+    "supabase>=2.13.0",
+    "pydantic-settings>=2.7.0",
+    "python-jose[cryptography]>=3.3.0",
+    "httpx>=0.28.0",
+    "huggingface-hub>=0.28.0",
+    "scipy>=1.14.0",
+    "numpy>=2.1.0",
+    "python-multipart>=0.0.18",
+    "websockets>=14.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.25.0",
+    "httpx>=0.28.0",
+]
+
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
