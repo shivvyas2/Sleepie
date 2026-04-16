@@ -1,3 +1,5 @@
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -9,13 +11,28 @@ from app.audio.routes import router as audio_router
 from app.analytics.routes import router as analytics_router
 
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup: warm JWKS cache
+    try:
+        from app.auth.jwt import jwt_validator
+        await jwt_validator._fetch_jwks()
+    except Exception:
+        pass  # Non-fatal — will fetch on first request
+
+    yield
+
+    # Shutdown: cleanup (future: close async HTTP clients)
+
+
 def create_app() -> FastAPI:
     app = FastAPI(
         title=settings.app_name,
         version="0.1.0",
-        description="AI-driven adaptive sleep music backend",
+        description="AI-driven adaptive sleep music backend for Sleepie",
         docs_url="/docs",
         redoc_url="/redoc",
+        lifespan=lifespan,
     )
 
     app.add_middleware(
