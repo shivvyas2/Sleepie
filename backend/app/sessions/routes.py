@@ -1,6 +1,6 @@
 from uuid import UUID
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, WebSocket
 
 from app.dependencies import get_current_user, get_supabase_client
 from app.sessions.schemas import (
@@ -10,6 +10,7 @@ from app.sessions.schemas import (
     SessionSummary,
 )
 from app.sessions.service import SessionService
+from app.sessions.websocket import BiometricWebSocketHandler, authenticate_websocket
 
 router = APIRouter()
 
@@ -67,3 +68,27 @@ async def get_session(
         raise HTTPException(status_code=404, detail="Session not found")
     except PermissionError:
         raise HTTPException(status_code=403, detail="Not your session")
+
+
+@router.websocket("/{session_id}/biometrics")
+async def websocket_biometrics(
+    websocket: WebSocket,
+    session_id: UUID,
+    token: str = "",
+):
+    if not token:
+        await websocket.close(code=4001, reason="Missing token")
+        return
+
+    user_id = await authenticate_websocket(websocket, token)
+    if not user_id:
+        await websocket.close(code=4001, reason="Invalid token")
+        return
+
+    await websocket.accept()
+
+    from app.dependencies import get_supabase_client
+    supabase = get_supabase_client()
+
+    handler = BiometricWebSocketHandler(websocket, session_id, user_id, supabase)
+    await handler.handle()
